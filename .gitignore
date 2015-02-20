@@ -1,3 +1,5 @@
+build.js*
+jspm_packages
 # Logs
 logs
 *.log
