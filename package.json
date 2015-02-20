@@ -1,3 +1,7 @@
 {
-  "jspm": {}
+  "jspm": {
+    "dependencies": {
+      "mori": "npm:mori@^0.3.2"
+    }
+  }
 }

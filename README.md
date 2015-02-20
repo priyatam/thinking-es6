@@ -18,3 +18,4 @@ Initialize a project
 Lesson are structures in git tags
 
 1. v0.1.0 - initial project structure
+2. v0.1.1 - added mori
