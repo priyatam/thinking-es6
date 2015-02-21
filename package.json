@@ -1,6 +1,7 @@
 {
   "jspm": {
     "dependencies": {
+      "jsonp": "npm:jsonp@^0.1.0",
       "mori": "npm:mori@^0.3.2"
     }
   }

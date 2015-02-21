@@ -19,3 +19,4 @@ Lesson are structures in git tags
 
 1. v0.1.0 - initial project structure
 2. v0.1.1 - added mori
+3. v0.1.2 - refactored modules, added reddit api with jsonp
