@@ -9,6 +9,7 @@ System.config({
 
 System.config({
   "map": {
+    "immutable": "npm:immutable@3.6.2",
     "jsonp": "npm:jsonp@0.1.0",
     "mori": "npm:mori@0.3.2",
     "github:jspm/nodelibs-process@0.1.1": {
