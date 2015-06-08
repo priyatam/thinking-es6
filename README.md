@@ -1,14 +1,21 @@
 ES6 LIVE
 ========
 
-ES6 is [powerful](https://github.com/lukehoban/es6features) and gets [better](https://github.com/ericdouglas/ES6-Learning) each [day](https://www.youtube.com/watch?v=iukBMY4apvI). This is a companion guide to [learn es6](https://babeljs.io/docs/learn-es6/) with an emphasis on functional programming.
+ES6 is [powerful](https://github.com/lukehoban/es6features) and gets
+[better](https://github.com/ericdouglas/ES6-Learning) each
+[day](https://www.youtube.com/watch?v=iukBMY4apvI). This is a companion guide to
+[learn es6](https://babeljs.io/docs/learn-es6/) with an emphasis on functional
+programming.
 
 It also includes the friction-less live coding server for ES6.
 
-## Setup
+## Getting Started
 
-	npm install -g jspm live-server
-	jspm install && live-server
+Start a live coding server
+
+	npm start
+
+[Babeljs](https://babeljs.io) is used as a transpiler. [Jspm](http://jspm.io) or [Browserify](http://browserify.org) can be used to bundle files into the Browser.
 
 ## Lessons
 
@@ -19,7 +26,8 @@ It also includes the friction-less live coding server for ES6.
 - Promises
 - Proxies
 - TCO Recursion
-- [Immutable](https://github.com/facebook/immutable-js) and [Mori](https://github.com/swannodette/mori) 
+- [Immutable](https://github.com/facebook/immutable-js) and
+  [Mori](https://github.com/swannodette/mori)
 
 ## Exercises
 
@@ -32,7 +40,4 @@ Exercises can be followed via tags:
 5. v0.1.4 - immutable data structures with mori and immutablejs
 6. v0.1.5 - generators
 
-## Tools
-
-- [Babeljs](https://babeljs.io)
-- [Jspm](http://jspm.io)
+7. v.0.2.0 - reorg
