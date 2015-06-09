@@ -1,5 +1,7 @@
+npm-debug*
 bundle.js
-build.js*
+release.js
+
 jspm_packages
 # Logs
 logs

@@ -1,32 +1,29 @@
 {
-  "name": "es6-live",
+  "name": "es6fp",
   "version": "0.2.0",
-  "description": "Minimal Setup for ES6",
-  "author": "Priyatam Mudivarti <priyatam@gmail.com> (http://priyatam.com/)",
+  "description": "Learn Functional Programming with ES6",
+  "repository": "https://github.com/priyatam/es6fp",
+  "author": "Priyatam Mudivarti <priyatam@gmail.com>",
   "license": "MIT",
-  "main": "index.js",
   "dependencies": {
+    "immutable": "^3.7.3",
     "mori": "^0.3.2"
   },
   "devDependencies": {
     "babel": "^5.5.5",
     "babelify": "^6.1.2",
+    "browserify": "^10.2.4",
+    "live-server": "^0.7.1",
+    "uglify-js2": "^2.1.11",
     "watchify": "^3.2.2"
   },
   "scripts": {
     "prestart": "npm install",
-    "build": "watchify lib/main.js -v -t babelify -o bundle.js",
-    "server": "live-server",
-    "start": "npm run build & npm run server"
-  },
-  "jspm": {
-    "dependencies": {
-      "mori": "npm:mori@^0.3.2"
-    },
-    "devDependencies": {
-      "babel": "npm:babel-core@^5.1.13",
-      "babel-runtime": "npm:babel-runtime@^5.1.13",
-      "core-js": "npm:core-js@^0.9.4"
-    }
+    "dev": "watchify lib/main.js -v -t babelify -o bundle.js",
+    "prod": "browserify lib/main.js -v -t babelify -o release.js",
+    "minify": "uglifyjs2 release.js -o dist/index.min.js -c -m",
+    "release": "npm run prod && npm run minify",
+    "server": "live-server --port=8000",
+    "start": "npm run dev & npm run server"
   }
 }
