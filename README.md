@@ -5,18 +5,17 @@ ES6 is [powerful](https://babeljs.io/docs/learn-es6/) and gets
 [better](https://github.com/ericdouglas/ES6-Learning) each day. This is a
 companion guide to ES6 with an emphasis on functional programming.
 
-It also includes a frictionless live coding server with Browserify.
+
+Includes a frictionless live coding server.
 
 ## Getting Started
 
 [Babeljs](https://babeljs.io) is used as a transpiler and
-[Browserify](http://browserify.org) bundles optimized sources into the Browser.
-
-Start a live coding ES6 server for dev
+[Browserify](http://browserify.org) bundles optimized sources into the Browser. Assuming you have npm installed, start a live coding ES6 server:
 
 	npm start
 
-Release an optimized Js file into `dist`
+Release an optimized Js file into `dist`:
 
 	npm run release
 
@@ -26,10 +25,11 @@ Release an optimized Js file into `dist`
 - Scope
 - Functions
 - Modules
+- Destructuring
+- Generators
 - Promises
 - Proxies
-- Recursion
-- [Mori](https://github.com/swannodette/mori)
+- [Immutable Data Structures](https://github.com/swannodette/mori)
 
 ## Exercises
 
